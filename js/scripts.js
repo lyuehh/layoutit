@@ -181,7 +181,7 @@ function gridSystemGenerator() {
 		$.each(n, function(n, r) {
 			e = e + parseInt(r);
 			t = t + '<div class="span' + r + ' ">'+
-			'<div class="widget-box"> <div class="widget-title"> <span class="icon"> <i class="icon-list"></i> </span> <h5>Two third width <code>class=Span'+r+'</code></h5> </div> <div class="widget-content column"></div> </div>'
+			'<div class="widget-box"> <div class="widget-title"> <span class="icon"> <i class="icon-list"></i> </span> <h5>span'+r+'</h5> </div> <div class="widget-content column"></div> </div>'
 			+'</div>';
 		});
 		if (e == 12) {
